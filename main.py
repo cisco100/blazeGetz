@@ -26,8 +26,8 @@ except TypeError:
 else:
 	print("Download starting in a few seconds")
 	print("[+] File Started Downloading")
-	wget.download(download_link, r"C:\DEVELOPMENT\PROGRAMMING\Platform\Python\Blaze\blazeGetz\download")
-toaster.show_toast(title='blazeGetz', msg='Download Done', icon_path=None, duration=5, threaded=True)
+	wget.download(download_link, "download")
+toaster.show_toast(title='blazeGetz', msg='Download Done', icon_path="assets/cloud-download.ico", duration=5, threaded=True)
 
 
 
